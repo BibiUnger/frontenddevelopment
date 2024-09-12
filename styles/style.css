@@ -28,4 +28,28 @@
 /****************/
 
 /* jouw code */
+body {
+    font-family: 
+}
+
+footer {
+    background: beige; 
+}
+
+h1 {
+    text-transform: uppercase; 
+}
+
+button {
+    border: 2px solid black; 
+    border-radius: 4em;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
+.groen {
+    background: #4F7942;
+    color: white; 
+}
+
 
