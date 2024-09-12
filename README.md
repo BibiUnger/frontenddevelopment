@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Bibi Unger
 
   #### Je startniveau:
-  Blauw/Rood
+  Blauw
 
   #### Je focus:
-  Surface plane?
+  Surface plane
  
 </details>
 
