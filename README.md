@@ -121,6 +121,7 @@ In de tweede week van het blok had ik alleen nog maar de HTML van de eerste page
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+We hebben voor de meeting niet overlegd over welke vragen we wilden stellen. In plaats daarvan hebben we allemaal individueel vragen gesteld. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
