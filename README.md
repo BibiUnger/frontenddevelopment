@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 [  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp](https://www.wwf.nl/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  WWF  
   <img src="1.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Wat we doen  
   <img src="2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
