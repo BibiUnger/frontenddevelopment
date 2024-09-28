@@ -109,7 +109,7 @@ De website support alleen maar normale instellingen. Als ik dark en light mode o
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In de tweede week van het blok had ik alleen nog maar de HTML van de eerste page. Het schrijven van de code hiervoor ging over het algemeen wel goed, maar ik had wel een paar vragen. 
 
 
   ### Agenda voor meeting
