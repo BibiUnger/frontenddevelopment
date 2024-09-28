@@ -151,7 +151,6 @@ We hebben voor de meeting niet overlegd over welke vragen we wilden stellen. In 
 Ik was niet bij het tweede voortgangsgesprek. Ik heb ook geen vragen deze week en ga volgende week tijdens de lessen om feedback vragen.  
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
  
 
@@ -208,7 +207,7 @@ Na het uitvoeren van de test ben ik tot de conclusie gekomen dat er nog een aant
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  In de vierde week was ik heel wat verder met mijn 
 
 
   ### Agenda voor meeting
