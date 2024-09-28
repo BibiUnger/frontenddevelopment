@@ -121,15 +121,13 @@ In de tweede week van het blok had ik alleen nog maar de HTML van de eerste page
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
-We hebben voor de meeting niet overlegd over welke vragen we wilden stellen. In plaats daarvan hebben we allemaal individueel vragen gesteld. 
+We hebben voor de meeting niet overlegd over welke vragen we wilden stellen. In plaats daarvan hebben we allemaal individueel vragen gesteld. Ik wilde wat vragen stellen over hoe je sections en articles ook al weer moest gebruiken, aangezien ik dit niet meer helemaal wist. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik weet nu beter hoe ik sections en articles moet gebruiken. Ook heb ik geleerd dat ik niet alles in articles of sections hoef te zetten, maar ook wat dingen kan groeperen door ze in een list te zetten. 
+  - De andere vragen die ik had gaan in latere werkgroepen en opdrachten aan bod komen
 
 </details>
 
@@ -143,26 +141,19 @@ We hebben voor de meeting niet overlegd over welke vragen we wilden stellen. In 
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  In de derde week heb ik de html van de tweede pagina geschreven. Ook ben ik begonnen met de CSS. Zo heb ik kleuren, lettertypes en achtergrondfoto's toegevoegd. Ik had wel wat moeite met het positioneren van items, maar na het maken van de opdrachten in de lessen ging dit beter. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
 
+Ik was niet bij het tweede voortgangsgesprek. Ik heb ook geen vragen deze week en ga volgende week tijdens de lessen om feedback vragen.  
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+ 
 
 </details>
 
