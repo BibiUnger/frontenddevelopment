@@ -28,6 +28,11 @@
 /****************/
 
 /* jouw code */
+
+* {
+    box-sizing: border-box; 
+}
+
 @font-face {
     font-family: 'Open Sans';
     src: url(fonts/OpenSans-Regular.ttf)
@@ -54,8 +59,22 @@ header {
     left: -0.6em;
     right: 0; 
     margin-bottom: 0; 
+    background-color: transparent; 
 }
 
+.headerscrol {
+    background-color: white;
+    box-shadow: 0 0.2px 8px gray;
+}
+
+
+.headerscrol li:first-of-type button span {
+    background-color: black;
+}
+
+.headerscrol li:first-of-type button p {
+    color: black;
+}
 
 img.logo {
     border-radius: 3em;
@@ -419,6 +438,11 @@ footer article:last-of-type p {
     padding-bottom: 2em; 
     font-size: 0.9em;
     letter-spacing: 1px;
+}
+
+.images p:active {
+    align-items: flex-start;
+    padding-top: 2em;
 }
 
 .images p:first-of-type {
@@ -950,5 +974,12 @@ form button:active {
     background-position: 100% 0%;
     background-size: 300% 300%;
     transition: all 0.3s ease-out;
+}
+
+audio {
+    width: 10em;
+    height: 5em;
+    margin: 0; 
+    padding: 0; 
 }
 
