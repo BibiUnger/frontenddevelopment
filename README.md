@@ -175,7 +175,34 @@ In de tweede week van het blok had ik alleen nog maar de HTML van de eerste page
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+In de vierde week van dit blok heb ik de toegankelijkheidstest toegepast op mijn eigen website. Dit heb ik gedaan door de site en de code te bekijken en de WCAG checklist af te gaan. Ik was tijdens het uitvoeren van de test al redelijk ver met mijn website, maar had hem nog niet helemaal af. Ik had in elk geval genoeg af om de test uit te voeren. 
+
+De content was erg toegankelijk, net als de content van de WWF website. Dit komt omdat de content op de WWF website en mijn eigen site vrijwel hetzelfde is. 
+
+De HTML was ook toegankelijk en er zaten geen fouten in. Dit hoef ik dus niet meer aan te passen. 
+
+De website is goed met een toetsenbord bestuurbaar, doordat er een duidelijke rand verschijnt om elementen als ze geselecteerd worden met de tab key. Hier hoef ik niks aan te veranderen. 
+
+Ik heb mijn website live gezet op Github en getest op mijn telefoon. Hier is de website redelijk toegankelijk, behalve als ik mijn telefoon kantel. De site beweegt wel mee maar de margins kloppen niet helemaal meer. Ik moet even kijken hoe ik dit kan fixen. 
+
+Over het algemeen kloppen de headings, behalve dat er op allebei de pagina’s meerdere H1-elementen staan. Dit moet ik dus aanpassen. 
+
+Een aantal elementen die bij elkaar passen staan in listen. Wel zijn er een aantal elementen die eigenlijk ook in een list zouden kunnen staan, maar niet in een list staan, zoals social media icons en sommige foto’s. Ik moet dus nog even kijken of ik deze elementen wel in listen kan zetten. 
+
+Alle foto’s die in de html staan hebben een alt tekst, zodat de website toegankelijker is voor mensen die een screenreader gebruiken. Alleen de achtergrond foto’s (die ik er heb ingezet met css) hebben geen alt tekst. 
+
+Bij sommige foto’s wordt er een audio afgespeeld als erop geklikt wordt. De audio’s kunnen echter niet gepauzeerd worden, wat de website minder toegankelijk maakt. Ik moet dus nog even kijken hoe ik ervoor kan zorgen dat gebruikers de audio wel kunnen pauzeren. De animaties op de website zijn wel subtiel, dus daar hoef ik niks aan de veranderen.  
+
+De controls zijn redelijk toegankelijk. De buttons en links zijn herkenbaar als buttons en link, er worden button elementen voor buttons gebruikt en a elementen voor links. Er is alleen geen sprake van een ‘skip link’ op allebei de pages. Deze moet ik dus nog toevoegen op de pages, zodat de website toegankelijker is voor gebruikers met een screenreader. 
+
+Je kan geen dark/light mode aanzetten of de tekst vergroten op mijn website. Ik ga nog kijken of ik dit eventueel wil veranderen. Wel is er een hoog contrast tussen de achtergrond en tekst. 
+
+Op de WWF website worden er wel veel achtergondfoto’s gebruikt voor tekst, dus heb ik dit ook veel gedaan. Om die teksten leesbaarder te maken heb ik de achtergrondfoto’s wat donkerder gemaakt, door achtergrondkleuren toe te voegen en de blend-mode op multiply te zetten.  
+
+Aanpassingen: 
+Na het uitvoeren van de test ben ik tot de conclusie gekomen dat er nog een aantal dingen zijn die ik moet aanpassen of uitzoeken. Zo moet ik ervoor zorgen dat er maximaal een H1 is op allebei de pages. Ook moet ik kijken of ik meer elementen in listen kan zetten en hoe ik de website toegankelijker voor mobiel kan maken. Verder moet ik kijken hoe ik ervoor zorg dat de audio’s gepauzeerd kunnen worden en moet ik op allebei de pages een ‘skip link’ toevoegen. 
+
 
 </details>
 
