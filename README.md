@@ -180,14 +180,17 @@ Alle foto’s die in de html staan hebben een alt tekst, zodat de website toegan
 
 Bij sommige foto’s wordt er een audio afgespeeld als erop geklikt wordt. De audio’s kunnen echter niet gepauzeerd worden, wat de website minder toegankelijk maakt. Ik moet dus nog even kijken hoe ik ervoor kan zorgen dat gebruikers de audio wel kunnen pauzeren. De animaties op de website zijn wel subtiel, dus daar hoef ik niks aan de veranderen.  
 
-De controls zijn redelijk toegankelijk. De buttons en links zijn herkenbaar als buttons en link, er worden button elementen voor buttons gebruikt en a elementen voor links. Er is alleen geen sprake van een ‘skip link’ op allebei de pages. Deze moet ik dus nog toevoegen op de pages, zodat de website toegankelijker is voor gebruikers met een screenreader. 
+De controls zijn toegankelijk. De buttons en links zijn herkenbaar als buttons en link, er worden button elementen voor buttons gebruikt en a elementen voor links. 
 
 Je kan geen dark/light mode aanzetten of de tekst vergroten op mijn website. Ik ga nog kijken of ik dit eventueel wil veranderen. Wel is er een hoog contrast tussen de achtergrond en tekst. 
 
 Op de WWF website worden er wel veel achtergondfoto’s gebruikt voor tekst, dus heb ik dit ook veel gedaan. Om die teksten leesbaarder te maken heb ik de achtergrondfoto’s wat donkerder gemaakt, door achtergrondkleuren toe te voegen en de blend-mode op multiply te zetten.  
 
-Aanpassingen: 
-Na het uitvoeren van de test ben ik tot de conclusie gekomen dat er nog een aantal dingen zijn die ik moet aanpassen of uitzoeken. Zo moet ik ervoor zorgen dat er maximaal een H1 is op allebei de pages, en dat ik geen headingselementen gebruik voor elementen die geen headings zijn. Ook moet ik kijken of ik meer elementen in listen kan zetten en hoe ik de website toegankelijker voor mobiel kan maken. Verder moet ik kijken hoe ik ervoor zorg dat de audio’s gepauzeerd kunnen worden en moet ik op allebei de pages een ‘skip link’ toevoegen. 
+Conclusie: 
+Na het uitvoeren van de test ben ik tot de conclusie gekomen dat er nog een aantal dingen zijn die ik moet aanpassen of uitzoeken. Zo moet ik ervoor zorgen dat er maximaal een H1 is op allebei de pages, en dat ik geen headingselementen gebruik voor elementen die geen headings zijn. Ook moet ik kijken of ik meer elementen in listen kan zetten en hoe ik de website toegankelijker voor mobiel kan maken. Verder moet ik kijken hoe ik ervoor zorg dat de audio’s gepauzeerd kunnen worden.
+
+Update:
+Ik heb de headings toegankelijker gemaakt door de H1's H2's te maken en die indivueel te stijlen, en de H3 die ik had gebruikt voor een quote te vervangen met een 'p'. Verder heb ik de de website toegankelijker voor mobiels gemaakt door een '@media only screen and (orientation: landscape)' toe te voegen en de margins te verhogen. Ik heb er voor gekozen om de audio's weg te halen, aangezien het de website rommelig zou maken als ik pauzeknoppen toe zou voegen. 
 
 
 </details>
