@@ -172,7 +172,7 @@ De website is goed met een toetsenbord bestuurbaar, doordat er een duidelijke ra
 
 Ik heb mijn website live gezet op Github en getest op mijn telefoon. Hier is de website redelijk toegankelijk, behalve als ik mijn telefoon kantel. De site beweegt wel mee maar de margins kloppen niet helemaal meer. Ik moet even kijken hoe ik dit kan fixen. 
 
-Over het algemeen kloppen de headings, behalve dat er op allebei de pagina’s meerdere H1-elementen staan. Dit moet ik dus aanpassen. 
+Over het algemeen kloppen de headings, behalve dat er op allebei de pagina’s meerdere H1-elementen staan. Ook zag ik dat ik een headingselement (een H3) had gebruikt voor een quote. Deze dingen moet ik dus aanpassen. 
 
 Een aantal elementen die bij elkaar passen staan in listen. Wel zijn er een aantal elementen die eigenlijk ook in een list zouden kunnen staan, maar niet in een list staan, zoals social media icons en sommige foto’s. Ik moet dus nog even kijken of ik deze elementen wel in listen kan zetten. 
 
@@ -187,7 +187,7 @@ Je kan geen dark/light mode aanzetten of de tekst vergroten op mijn website. Ik 
 Op de WWF website worden er wel veel achtergondfoto’s gebruikt voor tekst, dus heb ik dit ook veel gedaan. Om die teksten leesbaarder te maken heb ik de achtergrondfoto’s wat donkerder gemaakt, door achtergrondkleuren toe te voegen en de blend-mode op multiply te zetten.  
 
 Aanpassingen: 
-Na het uitvoeren van de test ben ik tot de conclusie gekomen dat er nog een aantal dingen zijn die ik moet aanpassen of uitzoeken. Zo moet ik ervoor zorgen dat er maximaal een H1 is op allebei de pages. Ook moet ik kijken of ik meer elementen in listen kan zetten en hoe ik de website toegankelijker voor mobiel kan maken. Verder moet ik kijken hoe ik ervoor zorg dat de audio’s gepauzeerd kunnen worden en moet ik op allebei de pages een ‘skip link’ toevoegen. 
+Na het uitvoeren van de test ben ik tot de conclusie gekomen dat er nog een aantal dingen zijn die ik moet aanpassen of uitzoeken. Zo moet ik ervoor zorgen dat er maximaal een H1 is op allebei de pages, en dat ik geen headingselementen gebruik voor elementen die geen headings zijn. Ook moet ik kijken of ik meer elementen in listen kan zetten en hoe ik de website toegankelijker voor mobiel kan maken. Verder moet ik kijken hoe ik ervoor zorg dat de audio’s gepauzeerd kunnen worden en moet ik op allebei de pages een ‘skip link’ toevoegen. 
 
 
 </details>
