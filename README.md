@@ -271,7 +271,7 @@ Aangezien we allemaal andere vragen hadden, hebben we individueel vragen gesteld
   4. [bron 4] https://www.w3schools.com/cssref/pr_background-blend-mode.php - voor hulp met de background image en blend mode
   5. [bron 5] https://www.w3schools.com/css/css3_gradients.asp - voor hulp met de button gradient
   6. [bron 6] https://css-tricks.com/almanac/properties/b/border-radius/ - voor hulp bij de border radius van sections en images
-  7. [bron 7] https://chatgpt.com/ - om een class op een span toe te voegen en weer laten verwijderen als er op een andere span wordt geklikt (door te vragen: hoe haal ik de class van een span er af als er op een andere span wordt geklikt) 
-
+  7. [bron 7] https://chatgpt.com/ - om een class op een span toe te voegen en weer laten verwijderen als er op een andere span wordt geklikt (door te vragen: hoe haal ik de class van een span er af als er op een andere span wordt geklikt)
+  8. [bron 8] https://www.w3schools.com/cssref/css3_pr_mediaquery.php - voor de media query: landscape tag
 
 </details>
