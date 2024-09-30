@@ -119,7 +119,7 @@ In de tweede week van het blok had ik alleen nog maar de HTML van de eerste page
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
-We hebben voor de meeting niet overlegd over welke vragen we wilden stellen. In plaats daarvan hebben we allemaal individueel vragen gesteld. Ik wilde wat vragen stellen over hoe je sections en articles ook al weer moest gebruiken, aangezien ik dit niet meer helemaal wist. 
+We hebben voor de meeting niet overlegd over welke vragen we wilden stellen. In plaats daarvan hebben we allemaal individueel vragen gesteld. Ik wilde wat vragen stellen over hoe je sections en articles ook al weer moest gebruiken, aangezien ik dit niet meer helemaal wist. Ook had ik alvast wat vragen over css en hoe je een hamburgermenu maakt. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -142,13 +142,9 @@ We hebben voor de meeting niet overlegd over welke vragen we wilden stellen. In 
   In de derde week heb ik de html van de tweede pagina geschreven. Ook ben ik begonnen met de CSS. Zo heb ik kleuren, lettertypes en achtergrondfoto's toegevoegd. Ik had wel wat moeite met het positioneren van items, maar na het maken van de opdrachten in de lessen ging dit beter. 
 
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
 
+Ik kon niet bij het tweede voortgangsgesprek zijn. Ik heb ook geen vragen deze week en ga volgende week tijdens de lessen om feedback vragen.  
 
-Ik was niet bij het tweede voortgangsgesprek. Ik heb ook geen vragen deze week en ga volgende week tijdens de lessen om feedback vragen.  
-
-  ### Verslag van meeting
 
  
 
@@ -205,7 +201,8 @@ Na het uitvoeren van de test ben ik tot de conclusie gekomen dat er nog een aant
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  In de vierde week was ik heel wat verder met mijn 
+  Voor het derde voortgangsgesprek was ik heel wat verder met mijn css. Ik ben vooral bezig geweest met het positioneren van items en (achtergrond)foto's. Ook ben ik begonnen aan de surface plane, door bezig te zijn met een carrousel en (het stylen van) een formulier. Verder heb ik een hamburgermenu gemaakt met javascript. 
+  Wel had ik wat vragen, voornamelijk over de surface plane. 
 
 
   ### Agenda voor meeting
@@ -217,13 +214,14 @@ Na het uitvoeren van de test ben ik tot de conclusie gekomen dat er nog een aant
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+Aangezien we allemaal andere vragen hadden, hebben we individueel vragen gesteld. Ik heb vooral vragen gesteld over wat allemaal precies bij de surface plane hoort en werd ik geholpen bij het uitzoeken van meer surface plane opdrachten. Ook had ik vragen over welke tags ik wel en niet mocht gebruiken. 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Ik moet nog meer dingen uitzoeken voor de surface plane. Ik wil buiten de dingen die ik al heb uitgekozen (een extra micro-interactie met het hamburgermenu, een gestylt formulier en een carrousel) animaties op controles en een scroll-driven animatin toevoegen op mijn website. 
+  - Een carrousel hoef je niet volledig met javascript te maken
+  - Je mag (bijna) geen classes en id's gebruiken, tenzij het niet anders kan en op je tweede pagina. 
   - ...
 
 </details>
@@ -267,13 +265,12 @@ Na het uitvoeren van de test ben ik tot de conclusie gekomen dat er nog een aant
   Nb. Vermeld de bronnen ook in je code.
 
   1. [bron 1] (https://codepen.io/shooft/pen/JjQLVeB - voor hulp bij de menu button
-  2. https://www.w3schools.com/tags/att_input_placeholder.asp - voor hulp bij de form (label en placeholder tag)
-  3. https://www.w3schools.com/jsref/prop_win_scrolly.asp - voor hulp bij een transitie van de header als er gescrold wordt
-  4. https://www.w3schools.com/cssref/pr_background-blend-mode.php - voor hulp met de background image en blend mode
-  5. https://www.w3schools.com/css/css3_gradients.asp - voor hulp met de button gradient
-  6. https://css-tricks.com/almanac/properties/b/border-radius/ - voor hulp bij de border radius van sections en images
-  7. https://chatgpt.com/ - om een class op een span toe te voegen en weer laten verwijderen als er op een andere span wordt geklikt (door te vragen: hoe haal ik de class
-     van een span er af als er op een andere span wordt geklikt) 
+  2. [bron 2] https://www.w3schools.com/tags/att_input_placeholder.asp - voor hulp bij de form (label en placeholder tag)
+  3. [bron 3] https://www.w3schools.com/jsref/prop_win_scrolly.asp - voor hulp bij een transitie van de header als er gescrold wordt
+  4. [bron 4] https://www.w3schools.com/cssref/pr_background-blend-mode.php - voor hulp met de background image en blend mode
+  5. [bron 5] https://www.w3schools.com/css/css3_gradients.asp - voor hulp met de button gradient
+  6. [bron 6] https://css-tricks.com/almanac/properties/b/border-radius/ - voor hulp bij de border radius van sections en images
+  7. [bron 7] https://chatgpt.com/ - om een class op een span toe te voegen en weer laten verwijderen als er op een andere span wordt geklikt (door te vragen: hoe haal ik de class van een span er af als er op een andere span wordt geklikt) 
 
 
 </details>
