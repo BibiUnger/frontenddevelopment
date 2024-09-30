@@ -266,8 +266,14 @@ Na het uitvoeren van de test ben ik tot de conclusie gekomen dat er nog een aant
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. [bron 1] (https://codepen.io/shooft/pen/JjQLVeB - voor hulp bij de menu button
+  2. https://www.w3schools.com/tags/att_input_placeholder.asp - voor hulp bij de form (label en placeholder tag)
+  3. https://www.w3schools.com/jsref/prop_win_scrolly.asp - voor hulp bij een transitie van de header als er gescrold wordt
+  4. https://www.w3schools.com/cssref/pr_background-blend-mode.php - voor hulp met de background image en blend mode
+  5. https://www.w3schools.com/css/css3_gradients.asp - voor hulp met de button gradient
+  6. https://css-tricks.com/almanac/properties/b/border-radius/ - voor hulp bij de border radius van sections en images
+  7. https://chatgpt.com/ - om een class op een span toe te voegen en weer laten verwijderen als er op een andere span wordt geklikt (door te vragen: hoe haal ik de class
+     van een span er af als er op een andere span wordt geklikt) 
+
 
 </details>
