@@ -275,6 +275,7 @@ Aangezien we allemaal andere vragen hadden, hebben we individueel vragen gesteld
   5. [bron 5] https://www.w3schools.com/css/css3_gradients.asp - voor hulp met de button gradient
   6. [bron 6] https://css-tricks.com/almanac/properties/b/border-radius/ - voor hulp bij de border radius van sections en images
   7. [bron 7] https://chatgpt.com/ - om een class op een span toe te voegen en weer laten verwijderen als er op een andere span wordt geklikt (door te vragen: hoe haal ik de class van een span er af als er op een andere span wordt geklikt)
-  8. [bron 8] https://www.w3schools.com/cssref/css3_pr_mediaquery.php - voor de media query: landscape tag
+  8. [bron 8] https://www.w3schools.com/jsref/met_domtokenlist_contains.asp voor de classList.contains tag
+  9. [bron 9] https://www.w3schools.com/cssref/css3_pr_mediaquery.php - voor de media query: landscape tag
 
 </details>
