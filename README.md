@@ -143,7 +143,8 @@ We hebben voor de meeting niet overlegd over welke vragen we wilden stellen. In 
 
 
 
-Ik kon niet bij het tweede voortgangsgesprek zijn. Ik heb ook geen vragen deze week en ga volgende week tijdens de lessen om feedback vragen.  
+Ik kon niet bij het tweede voortgangsgesprek zijn. Ik ben van plan om volgende week tijdens de lessen om feedback vragen.  
+Wel had ik een vraag over hoe je de hoeken van een image los van elkaar stylt. Dit heb ik online opgezocht, waarbij https://css-tricks.com/almanac/properties/b/border-radius/ me heeft geholpen. 
 
 
  
