@@ -44,7 +44,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Wat we doen  
-  <img src="2.png" width="375px" alt="omschrijving van de pagina">
+  <img src="wwf2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
