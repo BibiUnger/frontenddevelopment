@@ -33,12 +33,12 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url(/fonts/OpenSans-Regular.ttf)
+    src: url(OpenSans-Regular.ttf)
 }
 
 @font-face {
     font-family: 'WWF';
-    src: url(/fonts/WWF.otf); 
+    src: url(WWF.otf); 
 }
 
 
