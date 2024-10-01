@@ -1,0 +1,1454 @@
+
+*, *::after, *::before {
+    box-sizing: border-box;  
+  }
+
+:root {
+    --color-background: white;
+    --color-text: rgb(61, 61, 61); 
+    --color-groen: #ADBC47;
+    --color-anderegroen: #7C9E3E; 
+    --color-extra: black; 
+    --color-footer: #F5F3EB; 
+    --color-cards: #F6F5F3;
+    --color-image: rgb(179, 179, 179)
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'WWF';
+    src: url(fonts/WWF.otf); 
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url(fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url(fonts/OpenSans-SemiBold.ttf);
+}
+
+
+body {
+    font-family: "Open Sans Light";
+    line-height: 1.3em;
+    margin: 0; 
+    color: var(--color-text);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed; 
+    top: 0em; 
+    left: -0.6em;
+    right: 0; 
+    margin-bottom: 0; 
+    background-color: transparent; 
+}
+
+
+
+.headerscrol {
+    background-color: var(--color-background);
+    box-shadow: 0 0.2px 8px gray;
+}
+
+.headerscrol li:first-of-type button span {
+    background-color: var(--color-extra);
+}
+
+.headerscrol li:first-of-type button p {
+    color: var(--color-extra);
+}
+
+img.logo {
+    border-radius: 3em;
+    position: absolute;
+    left: -0.6em;
+}
+
+header li {
+    list-style: none;
+}
+
+header li:first-of-type button {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    transition-duration: 0.6s;
+    border: none; 
+    margin: 0; 
+    position: absolute;
+    top: 0.5em;
+    right: -2.5em; 
+}
+
+header li:first-of-type p {
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    margin-left: 1em; 
+}
+
+
+
+/* <!--met hulp van https://codepen.io/shooft/pen/JjQLVeB  --> */
+
+header li:first-of-type button span {
+    width: 2.2em;
+    height: 0.23em;
+    background-color: var(--color-background);
+    grid-row-start: 1;
+    grid-column-start: 2;
+    transition-duration: 0.6s;
+}
+
+header li:first-of-type button span:first-of-type {
+    transform: translateY(-0.8em);
+}
+
+header li:first-of-type button span:nth-of-type(3) {
+    transform: translateY(0.8em);
+}
+
+header li:first-of-type button[aria-expanded="true"] span:first-of-type {
+    transform: rotate(45deg); 
+}
+
+header li:first-of-type button[aria-expanded="true"] span:nth-of-type(2) {
+    transform: scale(0); 
+}
+
+header li:first-of-type button[aria-expanded="true"] span:nth-of-type(3) {
+    transform: rotate(-45deg); 
+}
+
+
+
+
+
+nav {
+    background-color: var(--color-background); 
+    position: fixed; 
+    top: 6em; 
+    left: 0; 
+    right: 0;
+    bottom: 0; 
+    translate: -100% 0%;
+    transition: translate 0.5s; 
+}
+
+nav.openmenu {
+    translate: 0% 0%; 
+}
+  
+
+nav form {
+    margin: 0;
+    padding: 0; 
+    border: none; 
+}
+
+nav section:first-of-type {
+    display: flex; 
+    justify-content: center;
+}
+
+nav button {
+    color: var(--color-extra); 
+    border: 1px solid var(--color-text); 
+    border-radius: 2.5em;
+    text-transform: uppercase;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    background: transparent;
+    color: var(--color-extra); 
+    font-size: 0.7em;
+    font-weight: bold;
+    margin-bottom: 0em; 
+}
+
+nav button:first-of-type {
+    margin-left: 2.5em; 
+    margin-right: 1em; 
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+nav button:first-of-type:active {
+    background-color: rgb(191, 191, 191);
+}
+
+
+nav button:nth-of-type(2) {
+    background: rgb(221, 122, 1); 
+    color: var(--color-background); 
+    margin-right: 2.5em; 
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+nav a:visited {
+    color: var(--color-text);
+}
+
+nav ul {
+    margin-left: 1.7em;
+    margin-top: 0; 
+    padding: 0;
+    border-top: solid 1px rgb(222, 222, 222); 
+    font-family: "Open Sans";
+    font-size: 0.9em; 
+    letter-spacing: 1px; 
+}
+
+nav li:first-of-type {
+    padding-top: 1em;
+}
+
+nav li {
+    padding-bottom: 2em;
+}
+
+
+nav input::placeholder {
+    color: var(--color-extra); 
+    font-size: 1em; 
+    font-weight: normal; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 1.3em; 
+}
+
+
+
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+/* met hulp van https://css-tricks.com/almanac/properties/b/border-radius/  */
+.amazone {
+    background-image: url('images/amazone.webp');
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 930px;
+    background-position: center;
+    padding-top: 9em;
+    padding-bottom: 8em;
+    color: var(--color-background);
+    background-position: 50% 0%;
+    border-radius: 0em 0em 80em 80em / 0em 0em 5em 5em; 
+}
+
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+/* met hulp van https://css-tricks.com/almanac/properties/b/border-radius/  */
+.natuur {
+    background-image: url('images/foto.webp');
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 910px;
+    background-position: center;
+    padding-top: 7em;
+    padding-bottom: 8em;
+    color: var(--color-background);
+    background-position: 50% 0%;
+    border-radius: 0em 0em 80em 80em / 0em 0em 5em 5em; 
+    padding-right: 1em;
+    word-spacing: 0.05em;
+}
+
+
+
+h1 {
+    font-family: "WWF";
+    font-size: 3.1em;
+    font-weight: 80; 
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0.3em;
+    letter-spacing: 0.7px;
+}
+
+h2 {
+    font-family: "WWF"; 
+    font-size: 2.4em;
+    font-weight: lighter;
+    margin: 0.4em;
+    margin-top: 0.8em;
+    margin-bottom: 0.7em;
+    line-height: 50px;
+}
+
+h3 {
+    text-align: center;
+    color: var(--color-extra); 
+    font-size: 1.5em; 
+    font-weight: 500; 
+    margin: 0.5em; 
+}
+
+p {
+    margin: 1em; 
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+main section:nth-of-type(2) article:nth-of-type(4) p {
+    line-height: 1.4em;
+}
+
+button {
+    border: 1px solid var(--color-background);
+    border-radius: 3em;
+    font-size: "Open Sans";
+    text-transform: uppercase;
+    padding-top: 1.6em;
+    padding-bottom: 1.6em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    background: transparent;
+    color: var(--color-background); 
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    margin-left: 1.2em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+footer {
+    background: var(--color-footer); 
+    margin-left: 0;
+    margin-right: 0; 
+    padding-top: 4.5em;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+    padding-left: 0.8em;
+    padding-right: 0.8em; 
+    line-height: 1.4em;
+}
+
+footer img {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+footer li {
+    border-bottom: 1px solid rgb(220, 220, 220); 
+}
+
+
+
+footer ul {
+    display: flex; 
+    flex-direction: column;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    padding-left: 0em; 
+    margin-top: 2em;
+}
+
+footer li:active {
+    color: var(--color-anderegroen); 
+}
+
+footer article:nth-of-type(3) {
+    border-bottom: 1px solid rgb(220, 220, 220); 
+    padding-bottom: 1.5em;
+}
+
+footer article:nth-of-type(4) {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+footer article:nth-of-type(5) p {
+    text-align: right;
+    font-size: 0.85em; 
+    letter-spacing: 0.5px;
+    
+}
+
+footer article:nth-of-type(5) {
+    border-bottom: 1px solid lightgrey; 
+}
+
+
+footer article:nth-of-type(4) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.6em;
+}
+
+footer article:first-of-type {
+    display: block; 
+    text-align: center; 
+    color: rgb(150, 150, 150); 
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+footer section:first-of-type article:first-of-type img {
+    padding: 0.5em;
+    border: solid 0.01em rgb(202, 202, 202); 
+    border-radius: 50%;  
+    margin: 0.5em;
+    margin-top: 3em;
+}
+
+footer article:nth-of-type(3) p:first-child {
+    font-weight: 700; 
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 2.5em;
+}
+
+footer article:nth-of-type(3) p:nth-of-type(2) {
+    letter-spacing: 0.3px;
+}
+
+footer article:nth-of-type(3) p:nth-of-type(3) {
+    font-weight: 700; 
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 3em;
+}
+
+footer article:nth-of-type(5) p:first-of-type {
+    color: rgb(147, 147, 147);
+    margin-bottom: -0.5em; 
+}
+
+
+footer article:last-of-type {
+    position: relative; 
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+footer article:last-of-type p {
+    font-family: "WWF";
+    font-size: 1.6em;
+    color: var(--color-extra); 
+    position: absolute;
+    top: -0.6em;
+    right: -0.3em;
+}
+
+main section:nth-of-type(2) article:first-child {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.8em;
+    margin-top: 2em;
+    margin-bottom: 2em; 
+    margin-right: 1.2em;
+}
+
+
+
+main section:nth-of-type(2) article:first-child img:active {
+    background-color: var(--color-controles);
+}
+
+main section:nth-of-type(2) article:nth-of-type(5) {
+    font-family: "Open Sans";
+    color: var(--color-background);
+    text-transform: uppercase; 
+}
+
+
+main section:nth-of-type(2) article:nth-of-type(5) p {
+    margin-bottom: 0; 
+    margin-top: 0; 
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 2em;
+    padding-bottom: 2em; 
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+main section:nth-of-type(2) article:nth-of-type(5) p:active {
+    align-items: flex-start;
+    padding-top: 2em;
+}
+
+
+
+main section:nth-of-type(2) article:nth-of-type(5) p:first-of-type {
+    background-image: url('images/aap.avif');
+    background-size: cover; 
+    height: 155px; 
+}
+
+main section:nth-of-type(2) article:nth-of-type(5) p:nth-of-type(2) {
+    background-image: url('images/bossen.webp');
+    background-size: cover; 
+    height: 155px;
+}
+
+main section:nth-of-type(2) article:nth-of-type(5) p:nth-of-type(3) {
+    background-image: url('images/vissen.webp');
+    background-size: cover; 
+    height: 155px;
+}
+
+main section:nth-of-type(2) article:nth-of-type(5) p:nth-of-type(4) {
+    background-image: url('images/vrouw_bos.webp');
+    background-size: cover; 
+    height: 155px;
+}
+
+main section:nth-of-type(2) article:nth-of-type(5) p:nth-of-type(5) {
+    background-image: url('images/paprika.webp');
+    background-size: cover; 
+    height: 155px;
+}
+
+main section:nth-of-type(2) article:nth-of-type(5) p:nth-of-type(6) {
+    background-image: url('images/bijen.webp');
+    background-size: cover; 
+    height: 155px;
+}
+
+main section:nth-of-type(2) article:nth-of-type(7) {
+    color: var(--color-background);
+}
+
+
+
+main section:nth-of-type(2) article:nth-of-type(7) p {
+    margin-bottom: 0; 
+    margin-top: 0; 
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 2em;
+    padding-bottom: 2em; 
+    font-size: 0.9em;
+    letter-spacing: 1.5px;
+    text-transform: uppercase; 
+    padding-right: 7em;
+}
+
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+main section:nth-of-type(2) article:nth-of-type(7) p:nth-of-type(1) {
+    background-image: url('images/albertheijn.webp');
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+    background-size: cover; 
+    height: 155px;
+}
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+main section:nth-of-type(2) article:nth-of-type(7) p:nth-of-type(2) {
+    background-image: url('images/actie.webp');
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+    background-size: cover; 
+    height: 155px;
+}
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+.tijger p {
+    color: var(--color-background);
+    margin-bottom: 0; 
+    margin-top: 0; 
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 1em;
+    padding-bottom: 2em; 
+    font-family: "Open Sans";
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    background-image: url('images/tijger2.webp');
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 0.3em;
+    height: 244px;
+    margin: 0.6em;
+}
+
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+.image3 p {
+    background-image: url('images/ipad.webp');
+    font-family: "Open Sans";
+    color: var(--color-background);
+    margin-bottom: 0; 
+    margin-top: 0; 
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 1em;
+    padding-bottom: 2em; 
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    text-transform: capitalize; 
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+    background-size: cover; 
+    border-radius: 0.3em;
+    height: 244px;
+    margin: 0.6em;
+}
+
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+main section:nth-of-type(4) article:nth-of-type(6) p {
+    background-image: url('images/fabrieken.webp');
+    background-position: center;
+    font-family: "Open Sans";
+    color: var(--color-background);
+    margin-bottom: 0; 
+    margin-top: 1em; 
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 1em;
+    padding-right: 2.5em; 
+    padding-bottom: 1em; 
+    font-size: 1.8em;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: capitalize; 
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+    background-size: cover; 
+    border-radius: 0.3em;
+    height: 244px;
+    margin: 0.6em;
+    margin-bottom: 2.5em; 
+}
+
+
+
+
+
+.images {
+    color: var(--color-background);
+    text-transform: uppercase; 
+}
+
+.images p {
+    margin-bottom: 0; 
+    margin-top: 0; 
+    font-family: "Open Sans";
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: 2em;
+    padding-bottom: 2em; 
+    font-size: 0.9em;
+    letter-spacing: 1.5px;
+    padding-right: 7em;
+}
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+.images p:first-of-type {
+    background-image: url('images/amazonerivier.webp');
+    background-size: cover; 
+    height: 150px; 
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+}
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+.images p:nth-of-type(2) {
+    background-image: url('images/zonnestraal.webp');
+    background-size: cover; 
+    height: 150px;
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+}
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+.images p:nth-of-type(3) {
+    background-image: url('images/duik.webp');
+    background-size: cover; 
+    height: 150px;
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+}
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+.images p:nth-of-type(4) {
+    background-image: url('images/olifant.webp');
+    background-size: cover; 
+    height: 150px;
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+}
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+.images p:nth-of-type(5) {
+    background-image: url('images/zwem.webp');
+    background-size: cover; 
+    height: 150px;
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+}
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+.images p:nth-of-type(6) {
+    background-image: url('images/manboom.webp');
+    background-size: cover; 
+    height: 150px;
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+}
+
+
+
+
+
+
+
+main section:nth-of-type(2) article:nth-of-type(4) {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+
+
+a p:first-of-type {
+    font-size: 0.7em; 
+    color: var(--color-background); 
+    letter-spacing: 0.5px; 
+    margin-top: 0.5em; 
+    margin-left: 3em; 
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+main section:nth-of-type(2) ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0; 
+    margin: 0; 
+    padding-bottom: 3em;
+}
+
+
+/* met hulp van https://www.w3schools.com/css/css3_gradients.asp  */
+main section:nth-of-type(2) li button {
+    background-image: linear-gradient(to right, #ADBC47, #7C9E3E, #ADBC47); 
+    background-position: 0% 50%;
+    background-size: 200% 200%;
+    color: var(--color-background); 
+    text-align: center; 
+    width: 90vw; 
+    font-weight: 550;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-radius: 30px;
+    margin-bottom: 0.3em;
+    cursor: pointer;
+    transition: all 0.3s ease-out; 
+}
+
+
+main section:nth-of-type(2) li button:active {
+    background-position: 100% 0%;
+    background-size: 300% 300%;
+}
+
+main {
+    border-radius: 0em 0em 80em 80em / 0em 0em 5em 5em;
+}
+
+main article:last-of-type p {
+    letter-spacing: 0.6px;
+}
+
+/* met hulp van https://www.w3schools.com/css/css3_gradients.asp  */
+main article:last-of-type button {
+    background-image: linear-gradient(to right, #ADBC47, #7C9E3E, #ADBC47); 
+    background-position: 0% 50%;
+    background-size: 200% 200%;
+    color: var(--color-background); 
+    text-align: center; 
+    font-weight: 550;
+    margin-top: 0em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-radius: 30px;
+    margin-bottom: 0.3em;
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    cursor: pointer;
+    transition: all 0.3s ease-out; 
+    margin-bottom: 5em;
+}
+
+
+
+main article:last-of-type button:active {
+    background-position: 100% 0%;
+    background-size: 300% 300%;
+}
+
+main section:nth-of-type(2) li {
+    width: 90vw; 
+    margin-left: 0.2em;
+    margin-right: 1.35; 
+}
+
+main section:nth-of-type(2) article:nth-of-type(7) {
+    font-family: "Open Sans";
+}
+
+
+.card {
+    background-color: var(--color-cards); 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr max-content; 
+    margin: 1em;
+    border-radius: 0.3em;
+    position: relative;
+    font-family: "Open Sans Bold";
+    color: var(--color-extra); 
+    line-height: 1.5em;
+}
+
+.card img {
+    grid-row: -1/1; 
+    border-radius: 0.3em; 
+    width: 100%;
+}
+
+
+.card h4 {
+    font-size: 0.9em;
+    margin-left: 1em; 
+}
+
+.card p {
+    font-size: 0.6em;
+    color: var(--color-anderegroen); 
+    margin-bottom: 0; 
+    margin-left: 1em; 
+    display: flex;
+    grid-column: 2;
+    position: absolute;
+    bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+main section:nth-of-type(3) article:nth-of-type(3) {
+    background-color: var(--color-cards); 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr max-content; 
+    margin: 1em;
+    border-radius: 0.3em;
+    position: relative;
+    font-family: "Open Sans Bold";
+    color: var(--color-extra); 
+    line-height: 1.5em;
+}
+
+main section:nth-of-type(3) article:nth-of-type(3) img {
+    grid-row: -1/1; 
+    border-radius: 0.3em; 
+    width: 100%;
+}
+
+
+main section:nth-of-type(3) article:nth-of-type(3) h4 {
+    font-size: 0.9em;
+    font-weight: 800;
+    margin-left: 1em; 
+}
+
+main section:nth-of-type(3) article:nth-of-type(3) p {
+    font-size: 0.6em;
+    color: var(--color-anderegroen); 
+    margin-bottom: 0; 
+    margin-left: 1em; 
+    display: flex;
+    grid-column: 2;
+    position: absolute;
+    bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+main section:nth-of-type(4) article:nth-of-type(2) {
+    background-color: var(--color-cards); 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr max-content; 
+    margin: 1em;
+    border-radius: 0.3em;
+    position: relative;
+    font-family: "Open Sans Bold";
+    color: var(--color-extra); 
+    line-height: 1.5em;
+}
+
+main section:nth-of-type(4) article:nth-of-type(2) img {
+    grid-row: -1/1; 
+    border-radius: 0.3em; 
+    width: 100%;
+}
+
+
+main section:nth-of-type(4) article:nth-of-type(2) h4 {
+    font-size: 0.9em;
+    font-weight: 800;
+    margin-left: 1em; 
+}
+
+main section:nth-of-type(4) article:nth-of-type(2) p {
+    font-size: 0.6em;
+    color: var(--color-anderegroen); 
+    margin-bottom: 0; 
+    margin-left: 1em; 
+    display: flex;
+    grid-column: 2;
+    position: absolute;
+    bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+main section:nth-of-type(4) article:nth-of-type(3) {
+    background-color: var(--color-cards); 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr max-content; 
+    margin: 1em;
+    border-radius: 0.3em;
+    position: relative;
+    font-family: "Open Sans Bold";
+    color: var(--color-extra); 
+    line-height: 1.5em;
+}
+
+main section:nth-of-type(4) article:nth-of-type(3) img {
+    grid-row: -1/1; 
+    border-radius: 0.3em; 
+    width: 100%;
+}
+
+
+main section:nth-of-type(4) article:nth-of-type(3) p {
+    font-size: 0.6em;
+    color: var(--color-anderegroen); 
+    margin-bottom: 0; 
+    margin-left: 1em; 
+    display: flex;
+    grid-column: 2;
+    position: absolute;
+    bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+main section:nth-of-type(4) article:nth-of-type(3) h4 {
+    font-size: 0.9em;
+    font-weight: 800;
+    margin-left: 1em; 
+}
+
+
+main section:nth-of-type(4) article:nth-of-type(4) {
+    background-color: var(--color-cards); 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr max-content; 
+    margin: 1em;
+    border-radius: 0.3em;
+    position: relative;
+    font-family: "Open Sans Bold";
+    color: var(--color-extra); 
+    line-height: 1.5em;
+}
+
+main section:nth-of-type(4) article:nth-of-type(4) img {
+    grid-row: -1/1; 
+    border-radius: 0.3em; 
+    width: 100%;
+}
+
+
+main section:nth-of-type(4) article:nth-of-type(4) h4 {
+    font-size: 0.9em;
+    font-weight: 800;
+    margin-left: 1em; 
+}
+
+main section:nth-of-type(4) article:nth-of-type(4) p {
+    font-size: 0.6em;
+    color: var(--color-anderegroen); 
+    margin-bottom: 0; 
+    margin-left: 1em; 
+    display: flex;
+    grid-column: 2;
+    position: absolute;
+    bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+main section:nth-of-type(4) article:nth-of-type(5) {
+    background-color: var(--color-cards); 
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr max-content; 
+    margin: 1em;
+    border-radius: 0.3em;
+    position: relative;
+    font-family: "Open Sans Bold";
+    color: var(--color-extra); 
+    line-height: 1.5em;
+}
+
+main section:nth-of-type(4) article:nth-of-type(5) img {
+    grid-row: -1/1; 
+    border-radius: 0.3em; 
+    width: 100%;
+}
+
+
+main section:nth-of-type(4) article:nth-of-type(5) p {
+    font-size: 0.6em;
+    color: var(--color-anderegroen); 
+    margin-bottom: 0; 
+    margin-left: 1em; 
+    display: flex;
+    grid-column: 2;
+    position: absolute;
+    bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+main section:nth-of-type(4) article:nth-of-type(5) h4 {
+    font-size: 0.9em;
+    font-weight: 800;
+    margin-left: 1em; 
+}
+
+
+
+
+
+main section:last-of-type img {
+    border-radius: 0.3em;
+    margin: 1em; 
+    margin-top: 3em; 
+    margin-bottom: 0em; 
+}
+
+
+
+
+
+div:first-of-type {
+    display: flex; 
+    justify-content: center;
+    margin-top: 3em;
+}
+
+div:first-of-type img {
+    border-radius: 0.5em;
+    width: 250px; 
+}
+
+div:nth-of-type(2) {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+}
+
+.rondje {
+    width: 0.65em;
+    height: 0.65em;
+    background: lightgrey;
+    border-radius: 30px;
+    display: block; 
+    margin: 0.4em;
+}
+
+
+
+.rondje.active {
+    background: var(--color-anderegroen); 
+    scale: 1.2; 
+}
+
+
+
+
+.vrouw {
+    background-color: var(--color-cards); 
+    text-align: center;
+    padding-bottom: 3em; 
+    margin-bottom: 1em;
+}
+
+/* met hulp van https://css-tricks.com/almanac/properties/b/border-radius/  */
+.vrouw img {
+    margin: 2.75em; 
+    margin-bottom: 1.3em; 
+    border-radius: 20% 80% 30% 70% / 55% 40% 60% 45%;
+}
+
+
+.vrouw p:first-of-type {
+    font-family: "Open Sans";
+    font-size: 0.9em; 
+    color: var(--color-text); 
+    margin-bottom: 0.3em; 
+}
+
+.vrouw p:nth-of-type(2){
+    font-size: 0.7em; 
+    color: darkgrey; 
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    margin-top: 0; 
+}
+
+.vrouw button {
+    font-family: "Open Sans Bold"; 
+    color: rgb(113, 113, 113); 
+    font-weight: 550;
+    border: 1px solid rgb(214, 214, 214); 
+    padding-top: 1.5em;
+    padding-bottom: 1.5em; 
+    border-radius: 3em;
+}
+
+.vrouw button:active {
+    background-color: var(--color-background);
+}
+
+.images2 h2 {
+    text-align: center;
+}
+
+main section:nth-of-type(5) p {
+    text-align: center;
+    font-size: 1.2em; 
+    line-height: 1.2em;
+    font-weight: light; 
+    margin: 0.5em;
+}
+
+form {
+    display: block; 
+    padding: 1em; 
+    border: 1px solid rgb(235, 235, 235); 
+    margin-right: 1em; 
+    margin-left: 1em; 
+    margin-bottom: 3em; 
+}
+
+form p {
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 0.75em; 
+    color: grey; 
+}
+
+input {
+    background-color: #F6F5F3;
+    border: 1px solid var(--color-background); 
+    width: 100%;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em; 
+}
+
+input::placeholder {
+    color: rgb(117, 117, 117); 
+    font-size: 0.9em; 
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding-left: 3em; 
+}
+
+/* met hulp van https://www.w3schools.com/css/css3_gradients.asp  */
+form button {
+    background-image: linear-gradient(to right, #ADBC47, #7C9E3E, #ADBC47); 
+    background-position: 0% 50%;
+    background-size: 200% 200%;
+    color: var(--color-background); 
+    text-align: center; 
+    font-weight: 550;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-radius: 30px;
+    margin-top: 1.5em; 
+    margin-bottom: 1em;
+    width: 100%; 
+    margin-left: 0em;
+}
+
+form button:active {
+    background-position: 100% 0%;
+    background-size: 300% 300%;
+    transition: all 0.3s ease-out;
+}
+
+
+.images2 p {
+    color: var(--color-background);
+
+}
+
+/* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
+.images2 p {
+    font-family: "Open Sans";
+    margin-bottom: 0; 
+    margin-top: 0; 
+    display: flex;  
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 1em;
+    padding-top: 4em;
+    padding-right: 6em;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    text-transform: capitalize; 
+    background-color: var(--color-image); 
+    background-blend-mode: multiply;
+    background-size: cover; 
+    height: 244px;
+    margin: 0.6em;
+}
+
+.images2 p:first-of-type {
+    background-image: url('images/walvis.webp');
+    background-size: cover; 
+    height: 285px; 
+    margin: 0; 
+    background-position: center;
+}
+
+.images2 p:nth-of-type(2) {
+    background-image: url('images/panda.webp');
+    background-size: cover; 
+    height: 285px; 
+    margin: 0; 
+    background-position: center;
+}
+
+.images2 p:nth-of-type(3) {
+    background-image: url('images/manmais.webp');
+    background-size: cover; 
+    height: 285px; 
+    margin: 0; 
+    background-position: center;
+}
+
+.images2 p:nth-of-type(4) {
+    background-image: url('images/indianentooi.jpeg');
+    background-size: cover; 
+    height: 285px; 
+    margin: 0; 
+    background-position: center;
+}
+
+.images2 p:nth-of-type(5) {
+    background-image: url('images/strand\ voet.webp');
+    background-size: cover; 
+    height: 285px; 
+    margin: 0; 
+    background-position: center;
+}
+
+
+
+/* aanpassingen na de toegankelijkheidsttest week 4 */
+
+
+
+/* h1's vervangen */
+
+main article:nth-of-type(4) h2 {
+    font-family: "WWF";
+    font-size: 2.8em;
+    font-weight: 80; 
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0.3em;
+    letter-spacing: 0.7px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: var(--color-text); 
+}
+
+main article:nth-of-type(6) h2 {
+    font-family: "WWF";
+    font-size: 3.1em;
+    font-weight: 80; 
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0.3em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+
+
+
+.h2 {
+    font-family: "WWF";
+    font-size: 3.1em;
+    font-weight: 80;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0.3em;
+    letter-spacing: 0.7px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+main section:nth-of-type(4) h2 {
+    font-family: "WWF";
+    font-size: 3.1em;
+    font-weight: 80; 
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0.3em;
+    letter-spacing: 0.7px;
+    margin-top: 0em;
+}
+
+
+
+
+main section:nth-of-type(5) h2 {
+    font-family: "WWF";
+    font-size: 3.1em;
+    font-weight: 80;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0.3em;
+    letter-spacing: 0.7px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.image3 h2 {
+    font-family: "WWF";
+    font-size: 3.1em;
+    font-weight: 80; 
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0.3em;
+    letter-spacing: 0.7px;
+    color: var(--color-text);
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+/* h3 die geen h3 hoort te zijn vervangen */
+.vrouw p:nth-of-type(3) {
+    font-family: "Open Sans";
+    font-size: 2.2em;
+    line-height: 1.25em;
+    text-align: center;
+    color: var(--color-extra);
+    font-weight: 500;
+    margin: 0.5em;
+}
+
+
+/* margins fixen als telefoon gekantelt wordt */
+/* met hulp van https://www.w3schools.com/cssref/css3_pr_mediaquery.php */
+@media only screen and (orientation: landscape) {
+    main {
+        margin-left: 4em;
+        margin-right: 4em; 
+    }
+
+    .amazone {
+        margin-left: -4em;
+        margin-right: -4em;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    .natuur {
+        margin-left: -4em;
+        margin-right: -4em;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    li button {
+        margin-left: -4em;
+        margin-right: -4em;
+    }
+
+    .vrouw {
+        margin-left: -4em;
+        margin-right: -4em;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    .images2 p {
+        margin: -4em;
+    }
+
+    footer {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+}
+
