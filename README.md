@@ -241,6 +241,7 @@ Aangezien we allemaal andere vragen hadden, hebben we individueel vragen gesteld
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="images/index.png" width="375px" alt="uitomst opdracht 1">
+  <img src="images/watwedoen.png" width="375px" alt="top">
 
 
   ### Dit ging goed/Heb ik geleerd: 
