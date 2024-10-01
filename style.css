@@ -37,7 +37,7 @@
 
 
 body {
-    font-family: "Open Sans Light";
+    font-family: "Open Sans Light", Helvetica, Arial;
     line-height: 1.3em;
     margin: 0; 
     color: var(--color-text);
@@ -268,7 +268,7 @@ nav input::placeholder {
 
 
 h1 {
-    font-family: "WWF";
+    font-family: "WWF", 'Arial Bold'; 
     font-size: 3.1em;
     font-weight: 80; 
     text-transform: uppercase;
@@ -278,7 +278,7 @@ h1 {
 }
 
 h2 {
-    font-family: "WWF"; 
+    font-family: "WWF", 'Arial Bold'; 
     font-size: 2.4em;
     font-weight: lighter;
     margin: 0.4em;
@@ -447,7 +447,7 @@ footer article:last-of-type {
 }
 
 footer article:last-of-type p {
-    font-family: "WWF";
+    font-family: "WWF", 'Arial Bold'; 
     font-size: 1.6em;
     color: var(--color-extra); 
     position: absolute;
@@ -471,7 +471,7 @@ main section:nth-of-type(2) article:first-child img:active {
 }
 
 main section:nth-of-type(2) article:nth-of-type(5) {
-    font-family: "Open Sans";
+    font-family: "Open Sans", Helvetica, Arial;
     color: var(--color-background);
     text-transform: uppercase; 
 }
@@ -598,7 +598,7 @@ main section:nth-of-type(2) article:nth-of-type(7) p:nth-of-type(2) {
 /* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
 .image3 p {
     background-image: url('images/ipad.webp');
-    font-family: "Open Sans";
+    font-family: "Open Sans", Helvetica, Arial;
     color: var(--color-background);
     margin-bottom: 0; 
     margin-top: 0; 
@@ -623,7 +623,7 @@ main section:nth-of-type(2) article:nth-of-type(7) p:nth-of-type(2) {
 main section:nth-of-type(4) article:nth-of-type(6) p {
     background-image: url('images/fabrieken.webp');
     background-position: center;
-    font-family: "Open Sans";
+    font-family: "Open Sans", Helvetica, Arial;
     color: var(--color-background);
     margin-bottom: 0; 
     margin-top: 1em; 
@@ -658,7 +658,7 @@ main section:nth-of-type(4) article:nth-of-type(6) p {
 .images p {
     margin-bottom: 0; 
     margin-top: 0; 
-    font-family: "Open Sans";
+    font-family: "Open Sans", Helvetica, Arial;
     display: flex; 
     justify-content: flex-start;
     align-items: flex-end;
@@ -825,7 +825,7 @@ main section:nth-of-type(2) li {
 }
 
 main section:nth-of-type(2) article:nth-of-type(7) {
-    font-family: "Open Sans";
+    font-family: "Open Sans", Helvetica, Arial;
 }
 
 
@@ -837,7 +837,7 @@ main section:nth-of-type(2) article:nth-of-type(7) {
     margin: 1em;
     border-radius: 0.3em;
     position: relative;
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans Bold", Helvetica Bold, Arial;
     color: var(--color-extra); 
     line-height: 1.5em;
 }
@@ -876,7 +876,7 @@ main section:nth-of-type(3) article:nth-of-type(3) {
     margin: 1em;
     border-radius: 0.3em;
     position: relative;
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans Bold", Helvetica Bold, Arial;
     color: var(--color-extra); 
     line-height: 1.5em;
 }
@@ -917,7 +917,7 @@ main section:nth-of-type(4) article:nth-of-type(2) {
     margin: 1em;
     border-radius: 0.3em;
     position: relative;
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans Bold", Helvetica Bold, Arial;
     color: var(--color-extra); 
     line-height: 1.5em;
 }
@@ -957,7 +957,7 @@ main section:nth-of-type(4) article:nth-of-type(3) {
     margin: 1em;
     border-radius: 0.3em;
     position: relative;
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans Bold", Helvetica Bold, Arial;
     color: var(--color-extra); 
     line-height: 1.5em;
 }
@@ -998,7 +998,7 @@ main section:nth-of-type(4) article:nth-of-type(4) {
     margin: 1em;
     border-radius: 0.3em;
     position: relative;
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans Bold", Helvetica Bold, Arial;
     color: var(--color-extra); 
     line-height: 1.5em;
 }
@@ -1039,7 +1039,7 @@ main section:nth-of-type(4) article:nth-of-type(5) {
     margin: 1em;
     border-radius: 0.3em;
     position: relative;
-    font-family: "Open Sans Bold";
+    font-family: "Open Sans Bold", Helvetica Bold, Arial;
     color: var(--color-extra); 
     line-height: 1.5em;
 }
@@ -1140,7 +1140,7 @@ div:nth-of-type(2) {
 
 
 .vrouw p:first-of-type {
-    font-family: "Open Sans";
+    font-family: "Open Sans", Helvetica Bold, Arial;
     font-size: 0.9em; 
     color: var(--color-text); 
     margin-bottom: 0.3em; 
@@ -1155,7 +1155,7 @@ div:nth-of-type(2) {
 }
 
 .vrouw button {
-    font-family: "Open Sans Bold"; 
+    font-family: "Open Sans Bold", Helvetica Bold, Arial; 
     color: rgb(113, 113, 113); 
     font-weight: 550;
     border: 1px solid rgb(214, 214, 214); 
@@ -1190,7 +1190,7 @@ form {
 }
 
 form p {
-    font-family: "Open Sans";
+    font-family: "Open Sans", Helvetica, Arial;
     text-align: center;
     font-size: 0.75em; 
     color: grey; 
@@ -1244,7 +1244,7 @@ form button:active {
 
 /* met hulp van https://www.w3schools.com/cssref/pr_background-blend-mode.php */
 .images2 p {
-    font-family: "Open Sans";
+    font-family: "Open Sans", Helvetica, Arial;
     margin-bottom: 0; 
     margin-top: 0; 
     display: flex;  
@@ -1312,7 +1312,7 @@ form button:active {
 /* h1's vervangen */
 
 main article:nth-of-type(4) h2 {
-    font-family: "WWF";
+    font-family: "WWF", 'Arial Bold'; 
     font-size: 2.8em;
     font-weight: 80; 
     text-transform: uppercase;
@@ -1326,7 +1326,7 @@ main article:nth-of-type(4) h2 {
 }
 
 main article:nth-of-type(6) h2 {
-    font-family: "WWF";
+    font-family: "WWF", 'Arial Bold'; 
     font-size: 3.1em;
     font-weight: 80; 
     text-transform: uppercase;
@@ -1342,7 +1342,7 @@ main article:nth-of-type(6) h2 {
 
 
 .h2 {
-    font-family: "WWF";
+    font-family: "WWF", 'Arial Bold'; 
     font-size: 3.1em;
     font-weight: 80;
     text-transform: uppercase;
@@ -1355,7 +1355,7 @@ main article:nth-of-type(6) h2 {
 }
 
 main section:nth-of-type(4) h2 {
-    font-family: "WWF";
+    font-family: "WWF", 'Arial Bold'; 
     font-size: 3.1em;
     font-weight: 80; 
     text-transform: uppercase;
@@ -1369,7 +1369,7 @@ main section:nth-of-type(4) h2 {
 
 
 main section:nth-of-type(5) h2 {
-    font-family: "WWF";
+    font-family: "WWF", 'Arial Bold'; 
     font-size: 3.1em;
     font-weight: 80;
     text-transform: uppercase;
@@ -1382,7 +1382,7 @@ main section:nth-of-type(5) h2 {
 }
 
 .image3 h2 {
-    font-family: "WWF";
+    font-family: "WWF", 'Arial Bold'; 
     font-size: 3.1em;
     font-weight: 80; 
     text-transform: uppercase;
