@@ -255,6 +255,9 @@ Aangezien we allemaal andere vragen hadden, hebben we individueel vragen gesteld
   
   <img src="images/form.png" width="375px" alt="Form">
   Ik heb voor het eerst een uitgebreide form gemaakt. Deze heb ik ook weer gestijld met CSS. Nu weet ik beter in de toekomst hoe ik dit moet doen. 
+
+  <img src="images/grid.png" width="375px" alt="top">
+  Door de opdrachten te maken dit blok heb ik geleerd hoe je elementen en cards kan positioneren met grid. Dit heb ik dan ook toegepast in mijn website, en kan dit vaker gaan gebruiken nu. 
   
   <img src="images/gradient.png" width="375px" alt="top">
   Verder heb ik geleerd hoe je een gradient op een element (zoals een button) zet, en hoe je dit kunt animeren. 
