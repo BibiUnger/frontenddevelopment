@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   WWF  
-  <img src="1.png" width="375px" alt="omschrijving van de pagina">
+  <img src="images/1.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Wat we doen  
-  <img src="wwf2.png" width="375px" alt="omschrijving van de pagina">
+  <img src="images/wwf2.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -89,10 +89,10 @@ De website support alleen maar normale instellingen. Als ik dark en light mode o
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="breakdown.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="images/breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="breakdownmenu.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/breakdownmenu.png" width="375px" alt="breakdown van een dynamisch deel">
 
 
 </details>
