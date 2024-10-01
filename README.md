@@ -275,7 +275,16 @@ Door de opdrachten te maken dit blok heb ik geleerd hoe je elementen en cards ka
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+
+Ik had eerst het idee om voor de Surface Plane een achtergrondvideo en audio's toe te voegen, wat uiteindelijk niet gelukt is. De achtergrondvideo deed het niet en ik kon de audio's niet laten pauzeren als ik een goede vormgeving wilde. Daarom heb ik uiteindelijk gekozen om dit niet te doen. 
+
+  <img src="images/audio.png" width="375px" alt="bummer">
+
+Het is me uiteindelijk wel gelukt om een carrousel na te maken, maar ik vond het wel lastig. Ik vond het vooral lastig om de rondjes die bij de images hoorde te veranderen en weer terug te veranderen. Uiteindelijk is dit wel gelukt. Het is wel een carrousel geworden met een micro-animatie (voor de surface plane), maar het is niet gelukt om precies dezelde carrousel na te maken als op de WWF Website 
+
+  <img src="images/slider.png" width="375px" alt="bummer">
+
+  
 </details>
 
 
