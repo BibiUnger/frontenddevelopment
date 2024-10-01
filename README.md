@@ -45,6 +45,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de tweede pagina (small screen):
   Wat we doen  
   <img src="images/wwf2.png" width="375px" alt="omschrijving van de pagina">
+
+  
  
 </details>
 
@@ -243,6 +245,17 @@ Aangezien we allemaal andere vragen hadden, hebben we individueel vragen gesteld
   <img src="images/index.png" width="375px" alt="uitomst opdracht 1">
   <img src="images/watwedoen.png" width="375px" alt="top">
 
+  ### Surface Plane::
+
+-Scroll animaties (animation-timeline, intersection observer…)- een scroll animatie op de header
+
+-Meer complete micro-interacties- een hamburgermenu micro interactrie waarbij de drie streepjes veranderen in een kruisje (en weer terug)
+
+-Meer complete micro-interacties- een carrousel waarbij de image (en het bijbehorende rondje) veranderd als je op een ander rondje klikt
+
+-Wat omvangrijkere formulieren met styling- een gestijld formulier
+
+-States van controls++ (forms, inputs, links…)- de buttons (en links) krijgen een andere state als er op geklikt wordt. De buttons worden ook geanimeerd. 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
