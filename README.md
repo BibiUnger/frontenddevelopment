@@ -249,10 +249,13 @@ Aangezien we allemaal andere vragen hadden, hebben we individueel vragen gesteld
 
   <img src="images/hamburger.png" width="375px" alt="top">
   Ik heb geleerd hoe ik een uitschuifbaar hamburgermenu moet maken, wat ik nog nooit eerder gedaan had. Ook heb ik voor het eerst met spans gewerkt voor de menubuton zelf, en heb ik die leren animeren. Deze dingen kan ik gebruiken in de toekomst. 
-  <img src="images/costumpr.png" width="375px" alt="top">
+  
+  <img src="images/custompr.png" width="375px" alt="top">
   Ook heb ik geleerd hoe ik met Custom Properties moet werken, iets waar ik voor deze opdracht nog nooit van had gehoord.
-  <img src="images/hamburger.png" width="375px" alt="Form">
+  
+  <img src="images/form.png" width="375px" alt="Form">
   Ik heb voor het eerst een uitgebreide form gemaakt. Deze heb ik ook weer gestijld met CSS. Nu weet ik beter in de toekomst hoe ik dit moet doen. 
+  
   <img src="images/gradient.png" width="375px" alt="top">
   Verder heb ik geleerd hoe je een gradient op een element (zoals een button) zet, en hoe je dit kunt animeren. 
 
