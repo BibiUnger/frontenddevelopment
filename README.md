@@ -240,13 +240,13 @@ Aangezien we allemaal andere vragen hadden, hebben we individueel vragen gesteld
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="images/index.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="images/watwedoen.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
